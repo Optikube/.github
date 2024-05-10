@@ -1,6 +1,6 @@
 <div align="center">
   
-# OptiKube (Client Side)
+# OptiKube 
 
 <p> Logo to go here </p>
 
@@ -53,8 +53,8 @@ HPA deployment customization, metrics and cost visualization of your deployment,
 
 ## Prerequisites
 Before attempting to launch Optikube, the following should already be installed and running:
-- Helm Client installed [Helm Docs](https://helm.sh/docs/intro/install/)
-- A supported Kubernetes cluster deployed ( currently only GKE) [GKE Docs](https://cloud.google.com/kubernetes-engine/docs/quickstarts/create-cluster)
+- Helm Client installed -> [Helm Docs](https://helm.sh/docs/intro/install/)
+- A supported Kubernetes cluster deployed ( currently only GKE) -> [GKE Docs](https://cloud.google.com/kubernetes-engine/docs/quickstarts/create-cluster)
 - 
 - 
 

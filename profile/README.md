@@ -28,7 +28,7 @@
 
 </div>
 
-<p> Screen Shots here of  Dashboards</p>
+<p> Screen Shots here of Dashboards</p>
 <img width="1187" alt="Screenshot 2024-04-26 at 7 12 59 PM" src="https://github.com/oslabs-beta/OptiKube-FE/assets/78817053/cdc2c4bf-8f7c-44fb-b21d-94e2a68700ce">
 
 ## Status
@@ -45,21 +45,24 @@ Optikube is currently in production stage
 
 
 ## Description
-Welcome to Optikube, an open-source tool created to aid with HPA customization based off user input along with metric and cost visualization. 
-
+Welcome to Optikube, a sophisticated tool designed for Kubernetes users who wish to optimize and manage their cluster costs effectively. It provides in-depth visualizations of cost usage and resource efficiency across deployments hosted on services like Google Cloud Platform . With features like automated horizontal pod scaling, Optikube not only forecasts costs but also enhances resource allocation, making it an essential tool for informed cluster management.
 
 ## Features
-HPA deployment customization, metrics and cost visualization of your deployment, 
+- HPA scaler tool that implements event driven auto scaling based off user input.
+- Resource visualization such as RAM, memory, and CPU efficiency.
+- Cost insights on a user's deployment utilizing real time data. 
 
 ## Prerequisites
 Before attempting to launch Optikube, the following should already be installed and running:
 - Helm Client installed -> [Helm Docs](https://helm.sh/docs/intro/install/)
 - A supported Kubernetes cluster deployed ( currently only GKE) -> [GKE Docs](https://cloud.google.com/kubernetes-engine/docs/quickstarts/create-cluster)
-- 
-- 
+
 
 ## Installation
-Hopefully we can get Helm charts working for easy installation or a guide on how to install App
+- Run the following Commands
+  ```
+  Helm Charts installation steps here
+  ```
 
 ## Contributions
 Contributions play a vital role in the open-source community and would be welcomed! If you'd like to contribute to OptiKube please follow the steps below.

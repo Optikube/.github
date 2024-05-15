@@ -65,9 +65,9 @@ Before attempting to launch Optikube, the following should already be installed 
 **Step 1: Install OptiKube**
   - Running the following command will install OptiKube via Helm chart.
   ```
-  helm install optikube \
-  --repo https://github.com/Optikube/optikube-helm-chart/ \
-  --namespace optikube --create-namespace
+  helm repo add optikube https://optikube.github.io/optikube-helm-chart/ && \
+  helm repo update && \
+  helm install optikube optikube/optikube --namespace optikube --create-namespace
   ```
 **Step 2: Enable port-forward**
   ```
@@ -84,9 +84,9 @@ With OptiKube installed you're ready to start optimizing your cluster. Upon visi
 ## Updating OptiKube
 After installing OptiKube, you will be able to update your version with the following command:
   ```
-  helm repo add optikube-charts https://github.com/Optikube/optikube-helm-chart/ && \
+  helm repo add optikube https://optikube.github.io/optikube-helm-chart/ && \
   helm repo update && \
-  helm upgrade optikube optikube-charts/optikube -n optikube
+  helm upgrade optikube optikube/optikube -n optikube
   ```
   
 ## Deleting OptiKube

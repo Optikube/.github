@@ -38,11 +38,14 @@ Optikube is currently in production stage but is set to launch soon!
 
 - [Description](#description)
 - [Features](#features)
-- [Getting Started](#getting_started)
-- [Installation](#installation)
-- [Contributions](#contributions)
+- [Prerequisites](#prerequisites)
+- [Installation](#installing-optikube)
+- [Managing Optikube](#managing-optikube)
+  - [Updating Optikube](#updating-optikube)
+  - [Deleting Optikube](#deleting-optikube) 
+- [Contributing](#contributions)
 - [Creators](#creators)
-- [Licsense](#license)
+- [License](#license)
 
 
 ## Description
@@ -64,7 +67,7 @@ Welcome to OptiKube, an advanced open-source tool designed for Kubernetes users 
 - **User-Centric Optimization Settings**:
   - Enables users to specify optimization priorities, including application criticality and workload variability, focusing on either cost reduction or performance enhancement. 
 
-## Getting Started
+## Prerequisites
 Before attempting to launch Optikube, the following should already be installed and running on your local machine:
 - Helm Client installed ➡️ [Helm](https://helm.sh/docs/intro/install/)
 - Kubectl installed ➡️ [Kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
@@ -93,7 +96,9 @@ With Optikube installed, you can immediately start to harness the full potential
   - Use the HPA dashboard to set up and adjust KEDA scalers according to your specific requirements and priorities.
   - Benefit from automatic adjustments to your deployments, ensuring efficient resource use and cost savings.
 
-## Updating OptiKube
+## Managing OptiKube
+
+### Updating OptiKube
 After installing OptiKube, you will be able to update your version with the following command:
   ```
   helm repo add optikube https://optikube.github.io/optikube-helm-chart/ && \

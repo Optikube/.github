@@ -57,11 +57,37 @@ Before attempting to launch Optikube, the following should already be installed 
 - A supported Kubernetes cluster deployed ( currently only GKE) -> [GKE Docs](https://cloud.google.com/kubernetes-engine/docs/quickstarts/create-cluster)
 
 
-## Installation
-- Run the following commands in your terminal: 
+## Installing OptiKube
+- Step 1: Install OptiKube
+  - Running the following command will install OptiKube via Helm chart.
   ```
-  Helm Charts installation steps here
+  helm install optikube \
+  --repo https://github.com/Optikube/optikube-helm-chart/ \
+  --namespace optikube --create-namespace
   ```
+- Step 2: Enable port-forward
+  ```
+  kubectl port-forward --namespace optikube deployment/optikube-dashboard 3000
+  ```
+- Step 3: Optimize your cluster!:tada:
+    - You can now view the deployed frontend by visiting the following link.
+      - [http://localhost:3000](http://localhost:3000)
+    - Publish :3000 as a secure endpoint on your cluster to remove the need to port forward.
+
+## Updating OptiKube
+  - After installing OptiKube, you will be able to update your version with the following command:
+  ```
+  helm repo add optikube-charts https://github.com/Optikube/optikube-helm-chart/ && \
+  helm repo update && \
+  helm upgrade optikube optikube-charts/optikube -n optikube
+  ```
+  
+## Deleting OptiKube
+  - After installing OptiKube, you will be able to update your version with the following command:
+  ```
+helm uninstall optikube -n optikube
+  ```
+
 
 ## Contributions
 Contributions play a vital role in the open-source community and would be welcomed! If you'd like to contribute to OptiKube please follow the steps below.

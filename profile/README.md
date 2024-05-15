@@ -3,7 +3,7 @@
   
 # OptiKube 
 
-<p> Logo to go here </p>
+<p> Logo to go here or replace "optikube" above </p>
 
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-326ce5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white)
@@ -22,17 +22,17 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 
-<p> Link to Website and Medium article here </p>
+<p> Read about the process and work that went into building Optikube [here](medium.com)</p>
 
 ---
 
 </div>
 
-<p> Screen Shots here of Dashboards</p>
+
 
 
 ## Status
-Optikube is currently in production stage
+Optikube is currently in production stage but is set to launch soon!
 
 ## Table of Contents
 

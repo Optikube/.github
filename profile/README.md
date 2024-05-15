@@ -1,3 +1,4 @@
+<img width="1187" alt="Screenshot 2024-04-26 at 7 12 59 PM" src="https://github.com/oslabs-beta/OptiKube-FE/assets/78817053/cdc2c4bf-8f7c-44fb-b21d-94e2a68700ce">
 <div align="center">
   
 # OptiKube 
@@ -28,7 +29,7 @@
 </div>
 
 <p> Screen Shots here of Dashboards</p>
-<img width="1187" alt="Screenshot 2024-04-26 at 7 12 59 PM" src="https://github.com/oslabs-beta/OptiKube-FE/assets/78817053/cdc2c4bf-8f7c-44fb-b21d-94e2a68700ce">
+
 
 ## Status
 Optikube is currently in production stage

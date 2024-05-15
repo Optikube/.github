@@ -45,13 +45,20 @@ Optikube is currently in production stage but is set to launch soon!
 
 
 ## Description
-Welcome to Optikube, a sophisticated tool designed for Kubernetes users who wish to optimize and manage their cluster costs effectively. It provides in-depth visualizations of cost usage and resource efficiency across deployments hosted on services like Google Cloud Platform . With features like automated horizontal pod scaling, Optikube not only forecasts costs but also enhances resource allocation, making it an essential tool for informed cluster management.
+Welcome to OptiKube, a sophisticated tool designed for Kubernetes users who wish to optimize and manage their cluster costs effectively. It provides in-depth visualizations of cost usage and resource efficiency across deployments hosted on services like Google Cloud Platform . With features like automated horizontal pod scaling, Optikube not only forecasts costs but also enhances resource allocation, making it an essential tool for informed cluster management.
+
+Welcome to OptiKube, an advanced open-source tool designed for Kubernetes users aiming to optimize and manage their cluster resources and costs effectively. OptiKube offers a comprehensive solution to efficient cluster management, enabling detailed cost and resource visualizations alongside automated scaling functionalities. By leveraging real-time data from services like Google Cloud Platform and integrating with KEDA for event-driven autoscaling, OptiKube ensures efficient resource utilization and cost management across Kubernetes deployments.
 
 ## Features
 - Horizontal auto-scaler tool that implements event driven autoscaling based off user input.
 - Automatic resource optimization for all OptiKube managed deployments each hour.
 - Resource visualization such as RAM, memory, and CPU efficiency.
-- Cost insights on a user's deployment utilizing real time data. 
+- Cost insights on a user's deployment utilizing real time data.
+- **Event-Driven Autoscaling:** Integrates with Kubernetes Event-driven Autoscalers (KEDA) to dynamically adjust pod counts based on user-defined optimization settings and workload demands.
+- **Automated Resource Optimization:** Queries Kubecost data hourly to adjust resources, ensuring optimal performance and cost efficiency for OptiKube managed deployments.
+- **Cost and Resource Visualizations:** Provides comprehensive graphs and visuals that display cost breakdowns, resource usage, and resource efficiency across various deployments.
+- **Scaler Management:** Allows users to create, update, and delete KEDA scalers through the frontend interface.
+- **User-Centric Optimization Settings**: Enables users to specify optimization priorities, including application criticality and workload variability, focusing on either cost reduction or performance enhancement. 
 
 ## Prerequisites
 Before attempting to launch Optikube, the following should already be installed and running on your local machine:
@@ -78,7 +85,10 @@ Before attempting to launch Optikube, the following should already be installed 
   - Publish :3000 as a secure endpoint on your cluster to remove the need to port forward.
 
 ## Using OptiKube
-With OptiKube installed you're ready to start optimizing your cluster. Upon visiting the frontend you will see cost insights displayed for your cluster. By visiting 
+With Optikube installed, you can immediately start to harness the full potential of your Kubernetes cluster:
+  - Navigate to the frontend to view and analyze cost insights and resource usage.
+  - Use the interactive tools to set up and adjust KEDA scalers according to your specific requirements and priorities.
+  - Benefit from automatic adjustments to your deployments, ensuring efficient resource use and cost savings.
 
 ## Updating OptiKube
 After installing OptiKube, you will be able to update your version with the following command:

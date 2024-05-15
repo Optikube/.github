@@ -55,9 +55,9 @@ Welcome to Optikube, a sophisticated tool designed for Kubernetes users who wish
 
 ## Prerequisites
 Before attempting to launch Optikube, the following should already be installed and running on your local machine:
-- [Helm Docs](https://helm.sh/docs/intro/install/) [🔗](https://helm.sh/docs/intro/install/)
-- [Kubectl Docs](https://kubernetes.io/docs/tasks/tools/#kubectl) [🔗](https://kubernetes.io/docs/tasks/tools/#kubectl)
-- [GKE Docs](https://cloud.google.com/kubernetes-engine/docs/quickstarts/create-cluster) [🔗](https://cloud.google.com/kubernetes-engine/docs/quickstarts/create-cluster)
+- Helm Client installed ➡️ [Docs](https://helm.sh/docs/intro/install/)
+- Kubectl installed ➡️ [Docs](https://kubernetes.io/docs/tasks/tools/#kubectl)
+- A supported Kubernetes cluster deployed (currently only GKE) ➡️ [Docs](https://cloud.google.com/kubernetes-engine/docs/quickstarts/create-cluster)
 
 
 ## Installing OptiKube

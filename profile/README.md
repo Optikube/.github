@@ -38,15 +38,14 @@ Optikube is currently in production stage but is set to launch soon!
 
 - [Description](#description)
 - [Features](#features)
-- [Prerequisites](#prerequisites)
+- [Getting Started](#getting_started)
 - [Installation](#installation)
 - [Contributions](#contributions)
 - [Creators](#creators)
+- [Licsense](#license)
 
 
 ## Description
-Welcome to OptiKube, a sophisticated tool designed for Kubernetes users who wish to optimize and manage their cluster costs effectively. It provides in-depth visualizations of cost usage and resource efficiency across deployments hosted on services like Google Cloud Platform . With features like automated horizontal pod scaling, Optikube not only forecasts costs but also enhances resource allocation, making it an essential tool for informed cluster management.
-
 Welcome to OptiKube, an advanced open-source tool designed for Kubernetes users aiming to optimize and manage their cluster resources and costs effectively. OptiKube offers a comprehensive solution to efficient cluster management, enabling detailed cost and resource visualizations alongside automated scaling functionalities. By leveraging real-time data from services like Google Cloud Platform and integrating with KEDA for event-driven autoscaling, OptiKube ensures efficient resource utilization and cost management across Kubernetes deployments.
 
 ## Features
@@ -60,12 +59,11 @@ Welcome to OptiKube, an advanced open-source tool designed for Kubernetes users 
 - **Scaler Management:** Allows users to create, update, and delete KEDA scalers through the frontend interface.
 - **User-Centric Optimization Settings**: Enables users to specify optimization priorities, including application criticality and workload variability, focusing on either cost reduction or performance enhancement. 
 
-## Prerequisites
+## Getting Started
 Before attempting to launch Optikube, the following should already be installed and running on your local machine:
 - Helm Client installed ➡️ [Helm](https://helm.sh/docs/intro/install/)
 - Kubectl installed ➡️ [Kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
 - A supported Kubernetes cluster deployed (currently only GKE) ➡️ [GKE](https://cloud.google.com/kubernetes-engine/docs/quickstarts/create-cluster)
-
 
 ## Installing OptiKube
 **Step 1: Install OptiKube**
@@ -87,7 +85,7 @@ Before attempting to launch Optikube, the following should already be installed 
 ## Using OptiKube
 With Optikube installed, you can immediately start to harness the full potential of your Kubernetes cluster:
   - Navigate to the frontend to view and analyze cost insights and resource usage.
-  - Use the interactive tools to set up and adjust KEDA scalers according to your specific requirements and priorities.
+  - Use the HPA dashboard to set up and adjust KEDA scalers according to your specific requirements and priorities.
   - Benefit from automatic adjustments to your deployments, ensuring efficient resource use and cost savings.
 
 ## Updating OptiKube

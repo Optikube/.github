@@ -53,11 +53,16 @@ Welcome to OptiKube, an advanced open-source tool designed for Kubernetes users 
 - Automatic resource optimization for all OptiKube managed deployments each hour.
 - Resource visualization such as RAM, memory, and CPU efficiency.
 - Cost insights on a user's deployment utilizing real time data.
-- **Event-Driven Autoscaling:** Integrates with Kubernetes Event-driven Autoscalers (KEDA) to dynamically adjust pod counts based on user-defined optimization settings and workload demands.
-- **Automated Resource Optimization:** Queries Kubecost data hourly to adjust resources, ensuring optimal performance and cost efficiency for OptiKube managed deployments.
-- **Cost and Resource Visualizations:** Provides comprehensive graphs and visuals that display cost breakdowns, resource usage, and resource efficiency across various deployments.
-- **Scaler Management:** Allows users to create, update, and delete KEDA scalers through the frontend interface.
-- **User-Centric Optimization Settings**: Enables users to specify optimization priorities, including application criticality and workload variability, focusing on either cost reduction or performance enhancement. 
+- **Event-Driven Autoscaling**
+  - Integrates with Kubernetes Event-driven Autoscalers (KEDA) to dynamically adjust pod counts based on user-defined optimization settings and workload demands.
+- **Automated Resource Optimization:**
+  - Queries Kubecost data hourly to adjust resources, ensuring optimal performance and cost efficiency for OptiKube managed deployments.
+- **Cost and Resource Visualizations:**
+  - Provides comprehensive graphs and visuals that display cost breakdowns, resource usage, and resource efficiency across various deployments.
+- **Scaler Management:**
+  - Allows users to create, update, and delete KEDA scalers through the frontend interface.
+- **User-Centric Optimization Settings**:
+  - Enables users to specify optimization priorities, including application criticality and workload variability, focusing on either cost reduction or performance enhancement. 
 
 ## Getting Started
 Before attempting to launch Optikube, the following should already be installed and running on your local machine:

@@ -57,26 +57,26 @@ Welcome to Optikube, a sophisticated tool designed for Kubernetes users who wish
 Before attempting to launch Optikube, the following should already be installed and running on your local machine:
 - Helm Client installed -> [Helm Docs](https://helm.sh/docs/intro/install/)
 - A supported Kubernetes cluster deployed ( currently only GKE) -> [GKE Docs](https://cloud.google.com/kubernetes-engine/docs/quickstarts/create-cluster)
-- [Helm Client installed](https://helm.sh/docs/intro/install/) <a href="https://helm.sh/docs/intro/install/"><img src="https://example.com/helm_icon.png" alt="Helm Icon" style="width:20px;height:20px;"></a>
-- [Kubectl installed](https://kubernetes.io/docs/tasks/tools/#kubectl) <a href="https://kubernetes.io/docs/tasks/tools/#kubectl"><img src="https://example.com/kubectl_icon.png" alt="Kubectl Icon" style="width:20px;height:20px;"></a>
-- [A supported Kubernetes cluster deployed (currently only GKE)](https://cloud.google.com/kubernetes-engine/docs/quickstarts/create-cluster) <a href="https://cloud.google.com/kubernetes-engine/docs/quickstarts/create-cluster"><img src="https://example.com/gke_icon.png" alt="GKE Icon" style="width:20px;height:20px;"></a>
+- Helm Client installed -> [Helm Docs](https://helm.sh/docs/intro/install/) ![open_in_new](https://github.com/github/octicons/blob/main/icons/link-external-16.svg)
+- Kubectl installed -> [Kubectl Docs](https://kubernetes.io/docs/tasks/tools/#kubectl) ![open_in_new](https://github.com/github/octicons/blob/main/icons/link-external-16.svg)
+- A supported Kubernetes cluster deployed (currently only GKE) -> [GKE Docs](https://cloud.google.com/kubernetes-engine/docs/quickstarts/create-cluster) ![open_in_new](https://github.com/github/octicons/blob/main/icons/link-external-16.svg)
 
 ## Installing OptiKube
-*Step 1: Install OptiKube*
+**Step 1: Install OptiKube**
   - Running the following command will install OptiKube via Helm chart.
   ```
   helm install optikube \
   --repo https://github.com/Optikube/optikube-helm-chart/ \
   --namespace optikube --create-namespace
   ```
-*Step 2: Enable port-forward*
+**Step 2: Enable port-forward**
   ```
   kubectl port-forward --namespace optikube deployment/optikube-dashboard 3000
   ```
-*Step 3: Optimize your cluster!* :tada: 
-    - You can now view the deployed frontend by visiting the following link.
-      - [http://localhost:3000](http://localhost:3000)
-    - Publish :3000 as a secure endpoint on your cluster to remove the need to port forward.
+**Step 3: Optimize your cluster!** :tada: 
+  - You can now view the deployed frontend by visiting the following link.
+  - [http://localhost:3000](http://localhost:3000)
+  - Publish :3000 as a secure endpoint on your cluster to remove the need to port forward.
 
 ## Using OptiKube
 With OptiKube installed you're ready to start optimizing your cluster. Upon visiting the frontend you will see cost insights displayed for your cluster. By visiting 
@@ -104,11 +104,11 @@ Contributions play a vital role in the open-source community and would be welcom
 
 ## Creators
 
-- *Cheryl Lee* <a href="https://github.com/yli-yanchen" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-1.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a> <a href="https://www.linkedin.com/in/cherylleech/" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-linkedin-3.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a>
-- *James Shea* <a href="https://github.com/JamesSheaDev" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-1.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a> <a href="https://www.linkedin.com/in/james-r-shea/" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-linkedin-3.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a>
-- *George Huang* <a href="https://github.com/gzfh24" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-1.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a> <a href="https://www.linkedin.com/in/gzfh" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-linkedin-3.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a>
-- *Josh Bajarias* <a href="https://github.com/Jawshhhhhhhh" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-1.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a> <a href="https://www.linkedin.com/in/joshbajarias/" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-linkedin-3.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a>
-- *Andy Guajardo* <a href="https://github.com/andymattgee" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-1.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a> <a href="https://www.linkedin.com/in/andy-guajardo-a63987101/" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-linkedin-3.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a>
+- **Cheryl Lee** <a href="https://github.com/yli-yanchen" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-1.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a> <a href="https://www.linkedin.com/in/cherylleech/" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-linkedin-3.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a>
+- **James Shea** <a href="https://github.com/JamesSheaDev" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-1.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a> <a href="https://www.linkedin.com/in/james-r-shea/" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-linkedin-3.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a>
+- **George Huang** <a href="https://github.com/gzfh24" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-1.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a> <a href="https://www.linkedin.com/in/gzfh" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-linkedin-3.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a>
+- **Josh Bajarias** <a href="https://github.com/Jawshhhhhhhh" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-1.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a> <a href="https://www.linkedin.com/in/joshbajarias/" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-linkedin-3.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a>
+- **Andy Guajardo** <a href="https://github.com/andymattgee" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-1.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a> <a href="https://www.linkedin.com/in/andy-guajardo-a63987101/" target="blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-linkedin-3.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a>
 
-## Licsense
+## License
 OptiKube is developed under the [MIT License](https://mit-license.org/).

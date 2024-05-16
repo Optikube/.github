@@ -48,10 +48,6 @@ Optikube is currently in production stage but is set to launch soon!
 Welcome to OptiKube, an advanced open-source tool designed for Kubernetes users aiming to optimize and manage their cluster resources and costs effectively. OptiKube offers a comprehensive solution to efficient cluster management, enabling detailed cost and resource visualizations alongside automated scaling functionalities. By leveraging real-time data from services like Google Cloud Platform and integrating with KEDA for event-driven autoscaling, OptiKube ensures efficient resource utilization and cost management across Kubernetes deployments.
 
 ## Features
-- Horizontal auto-scaler tool that implements event driven autoscaling based off user input.
-- Automatic resource optimization for all OptiKube managed deployments each hour.
-- Resource visualization such as RAM, memory, and CPU efficiency.
-- Cost insights on a user's deployment utilizing real time data.
 - **Event-Driven Autoscaling**
   - Integrates with Kubernetes Event-driven Autoscalers (KEDA) to dynamically adjust pod counts based on user-defined optimization settings and workload demands.
 - **Automated Resource Optimization:**
@@ -90,9 +86,24 @@ Before attempting to launch Optikube, the following should already be installed 
 
 ## Using OptiKube
 With Optikube installed, you can immediately start to harness the full potential of your Kubernetes cluster:
-  - Navigate to the frontend to view and analyze cost insights and resource usage.
-  - Use the HPA dashboard to set up and adjust KEDA scalers according to your specific requirements and priorities.
-  - Benefit from automatic adjustments to your deployments, ensuring efficient resource use and cost savings.
+
+### Cost Insights
+- Explain to users how to view the cost insights 
+
+### Cluster Recommendations
+- Expain to users how to get see cluster recommnedations
+
+### Creating KEDA Scalers
+- Accessing the HPA dashboard will allow you to create, delete, and manage Kubernetes event driven autoscalers (KEDA).
+- The HPA dashboard will display deployments eligible for scaler creation and managed optimization by OptiKube.
+- Creating a scaler requires the user to input optimization settings and preferences for the delployment.
+- To learn more about optimization settings please refer to the optikube-operator [optimization settings](https://github.com/Optikube/optikube-operator/blob/main/README.md#optimization-settings) section. 
+
+### Updating Optimization Settings
+ - For each OptiKube managed deployment you can update your preferred optimization settings such as workload variability, application criticality, and optimization priority.
+ - These optimization settings impact the [scaling policies](https://github.com/Optikube/optikube-operator/blob/main/README.md#hourly-optimization-in-optikube) for both KEDA scalers as well as OptiKube's [hourly resource optimization](https://github.com/Optikube/optikube-operator/blob/main/README.md#hourly-optimization-in-optikube) for managed deployments.
+ - For more information on KEDA scaling policies and hourly resource optimization in OptiKube please refer to the optikube-operator [readme](https://github.com/Optikube/optikube-operator/blob/main/README.md#hourly-optimization-in-optikube).
+
 
 ## Managing OptiKube
 

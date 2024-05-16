@@ -34,8 +34,8 @@ Optikube is currently in production stage but is set to launch soon!
   - [Prerequisites](#prerequisites)
   - [Installation](#installating-optikube)
 - [Using Optikube](#using-optikube)
-  - [Creating Scalers]
-  - [View Total Cost] 
+  - [Creating Scalers](#creating-keda-scalers)
+  - [Optimization Settings](#updating-optimization-settings) 
 - [Managing Optikube](#managing-optikube)
   - [Updating Optikube](#updating-optikube)
   - [Deleting Optikube](#deleting-optikube) 
@@ -43,7 +43,7 @@ Optikube is currently in production stage but is set to launch soon!
 - [Creators](#creators)
 - [License](#license)
 
-
+---
 ## Description
 Welcome to OptiKube, an advanced open-source tool designed for Kubernetes users aiming to optimize and manage their cluster resources and costs effectively. OptiKube offers a comprehensive solution to efficient cluster management, enabling detailed cost and resource visualizations alongside automated scaling functionalities. By leveraging real-time data from services like Google Cloud Platform and integrating with KEDA for event-driven autoscaling, OptiKube ensures efficient resource utilization and cost management across Kubernetes deployments.
 
@@ -58,7 +58,7 @@ Welcome to OptiKube, an advanced open-source tool designed for Kubernetes users 
   - Allows users to create, update, and delete KEDA scalers through the frontend interface.
 - **User-Centric Optimization Settings**:
   - Enables users to specify optimization priorities, including application criticality and workload variability, focusing on either cost reduction or performance enhancement. 
-
+---
 ## Getting Started
 
 ### Prerequisites
@@ -83,7 +83,7 @@ Before attempting to launch Optikube, the following should already be installed 
   - You can now view the deployed frontend by visiting the following link.
   - [http://localhost:3000](http://localhost:3000)
   - Publish :3000 as a secure endpoint on your cluster to remove the need to port forward.
-
+---
 ## Using OptiKube
 With Optikube installed, you can immediately start to harness the full potential of your Kubernetes cluster:
 
@@ -104,7 +104,7 @@ With Optikube installed, you can immediately start to harness the full potential
  - These optimization settings impact the [scaling policies](https://github.com/Optikube/optikube-operator/blob/main/README.md#hourly-optimization-in-optikube) for both KEDA scalers as well as OptiKube's [hourly resource optimization](https://github.com/Optikube/optikube-operator/blob/main/README.md#hourly-optimization-in-optikube) for managed deployments.
  - For more information on KEDA scaling policies and hourly resource optimization in OptiKube please refer to the optikube-operator [readme](https://github.com/Optikube/optikube-operator/blob/main/README.md#hourly-optimization-in-optikube).
 
-
+---
 ## Managing OptiKube
 
 ### Updating OptiKube
@@ -120,7 +120,7 @@ After installing OptiKube, you will be able to update your version with the foll
   ```
 helm uninstall optikube -n optikube
   ```
-
+---
 ## Contributions
 Contributions play a vital role in the open-source community and would be welcomed! If you'd like to contribute to OptiKube please follow the steps below.
 - Fork the project.

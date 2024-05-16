@@ -22,7 +22,7 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 
-<p> Read about the process and work that went into building Optikube [here](https://medium.com/@andymatt1225/optikube-your-kubernetes-clusters-new-best-friend-e115ea68679a).</p>
+Read about the process and work that went into building Optikube [here](https://medium.com/@andymatt1225/optikube-your-kubernetes-clusters-new-best-friend-e115ea68679a).
 
 ---
 

@@ -41,6 +41,9 @@ Optikube is currently in production stage but is set to launch soon!
 - [Getting Started](#installing-optikube)
   - [Prerequisites](#prerequisites)
   - [Installation](#installating-optikube)
+- [Using Optikube](#using-optikube)
+  - [Creating Scalers]
+  - [View Total Cost] 
 - [Managing Optikube](#managing-optikube)
   - [Updating Optikube](#updating-optikube)
   - [Deleting Optikube](#deleting-optikube) 

@@ -1,5 +1,7 @@
 # Hey there 👋 and welcome to OptiKube!
+---
  ![OptiKube Horizontal Logo](optikube_logo_horizontal_final.jpg)
+ 
 OptiKube is open source application for Kubernetes users to optimize and manage their cluster resources and costs effectively. Continue reading and find out more about what OptiKube can do for you. To learn more about the process and work that went into building Optikube look [here](https://medium.com/@andymatt1225/optikube-your-kubernetes-clusters-new-best-friend-e115ea68679a).
 
 ## Tech Stack
@@ -19,10 +21,7 @@ OptiKube is open source application for Kubernetes users to optimize and manage 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-
 ---
-
-</div>
 
 ## Status
 Optikube is currently in production stage but is set to launch soon!

@@ -127,7 +127,7 @@ Contributions play a vital role in the open-source community and would be welcom
 - Create and work off of your feature branch.
 - Create a pull request with a detailed description of your changes using our template to merge your feature branch into dev.
 - We will review it and get back to you!
-
+---
 ## Creators
 
 | Name          | GitHub | LinkedIn |
@@ -138,6 +138,6 @@ Contributions play a vital role in the open-source community and would be welcom
 | **Josh Bajarias** | <a href="https://github.com/Jawshhhhhhhh" target="_blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-1.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a> | <a href="https://www.linkedin.com/in/joshbajarias/" target="_blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-linkedin-3.png&r=56&g=136&b=255" alt="linkedin" height="30" width="30" /></a> |
 | **James Shea** | <a href="https://github.com/JamesSheaDev" target="_blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-github-1.png&r=56&g=136&b=255" alt="github" height="30" width="30" /></a> | <a href="https://www.linkedin.com/in/james-r-shea/" target="_blank"><img align="center" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2012/png/iconmonstr-linkedin-3.png&r=56&g=136&b=255" alt="linkedin" height="30" width="30" /></a> |
 
-
+---
 ## License
 OptiKube is developed under the [MIT License](https://mit-license.org/).

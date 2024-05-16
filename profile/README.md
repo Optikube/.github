@@ -38,8 +38,9 @@ Optikube is currently in production stage but is set to launch soon!
 
 - [Description](#description)
 - [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installing-optikube)
+- [Getting Started](#installing-optikube)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installating-optikube)
 - [Managing Optikube](#managing-optikube)
   - [Updating Optikube](#updating-optikube)
   - [Deleting Optikube](#deleting-optikube) 
@@ -67,13 +68,15 @@ Welcome to OptiKube, an advanced open-source tool designed for Kubernetes users 
 - **User-Centric Optimization Settings**:
   - Enables users to specify optimization priorities, including application criticality and workload variability, focusing on either cost reduction or performance enhancement. 
 
-## Prerequisites
+## Getting Started
+
+### Prerequisites
 Before attempting to launch Optikube, the following should already be installed and running on your local machine:
 - Helm Client installed ➡️ [Helm](https://helm.sh/docs/intro/install/)
 - Kubectl installed ➡️ [Kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
 - A supported Kubernetes cluster deployed (currently only GKE) ➡️ [GKE](https://cloud.google.com/kubernetes-engine/docs/quickstarts/create-cluster)
 
-## Installing OptiKube
+### Installing OptiKube
 **Step 1: Install OptiKube**
   - Running the following command will install OptiKube via Helm chart.
   ```
@@ -106,7 +109,7 @@ After installing OptiKube, you will be able to update your version with the foll
   helm upgrade optikube optikube/optikube -n optikube
   ```
   
-## Deleting OptiKube
+### Deleting OptiKube
 After installing OptiKube, you will be able to update your version with the following command:
   ```
 helm uninstall optikube -n optikube

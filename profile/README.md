@@ -2,7 +2,7 @@
 ---
  ![OptiKube Horizontal Logo](optikube_logo_horizontal_final.jpg)
  
-OptiKube is open source application for Kubernetes users to optimize and manage their cluster resources and costs effectively. Continue reading and find out more about what OptiKube can do for youo or contact optikube@gmail.com for assistance. To learn more about the process and work that went into building Optikube look [here](https://medium.com/@andymatt1225/optikube-your-kubernetes-clusters-new-best-friend-e115ea68679a).
+OptiKube is open source application for Kubernetes users to optimize and manage their cluster resources and costs effectively. Continue reading and find out more about what OptiKube can do for you or contact optikube@gmail.com for assistance. To learn more about the process and work that went into building Optikube look [here](https://medium.com/@andymatt1225/optikube-your-kubernetes-clusters-new-best-friend-e115ea68679a).
 
 ## Tech Stack
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
@@ -34,6 +34,10 @@ Optikube is currently in production stage but is set to launch soon!
   - [Prerequisites](#prerequisites)
   - [Installation](#installating-optikube)
 - [Using Optikube](#using-optikube)
+  - [Overview](#overview)
+  - [Metrics Insights](#metrics-insights)
+  - [Cost Insights](#cost-insights)
+  - [Savings Insights](#cluster-recommendations)
   - [Creating Scalers](#creating-keda-scalers)
   - [Optimization Settings](#updating-optimization-settings) 
 - [Managing Optikube](#managing-optikube)
@@ -54,6 +58,8 @@ Welcome to OptiKube, an advanced open-source tool designed for Kubernetes users 
   - Queries Kubecost data hourly to adjust resources, ensuring optimal performance and cost efficiency for OptiKube managed deployments.
 - **Cost and Resource Visualizations:**
   - Provides comprehensive graphs and visuals that display cost breakdowns, resource usage, and resource efficiency across various deployments.
+- **Savings and Cluster Recommendations:**
+  - Access tailored recommendations for cost savings and optimal resource allocation by deployment and namespace, based on user specified criteria and goals.
 - **Scaler Management:**
   - Allows users to create, update, and delete KEDA scalers through the frontend interface.
 - **User-Centric Optimization Settings**:
@@ -87,11 +93,18 @@ Before attempting to launch Optikube, the following should already be installed 
 ## Using OptiKube
 With Optikube installed, you can immediately start to harness the full potential of your Kubernetes cluster:
 
+## Overview
+- The landing page for OptiKube provides a snapshot of both weekly resource allocation as well as daily cost for the past week.
+- For more detailed cost and metrics insights users can navigate to the cost and metrics dashboards.
+
+## Metrics Insights
+- By accessing the metrics dashboard monitor cumulative costs by namespace over selectable time windows, providing clear visibility into resource expenditure across your Kubernetes environment.
+
 ### Cost Insights
-- Explain to users how to view the cost insights 
+- Users can utilize the cost dashboard to gain detailed insights into Kubernetes spending with filters for time frames, namespaces, nodes, and deployments, allowing for precise cost management and analysis.
 
 ### Cluster Recommendations
-- Expain to users how to get see cluster recommnedations
+- Access tailored recommendations for cost savings and optimal resource allocation by deployment and namespace, based on your specified criteria and goals.
 
 ### Creating KEDA Scalers
 - Accessing the HPA dashboard will allow you to create, delete, and manage Kubernetes event driven autoscalers (KEDA).

@@ -2,7 +2,7 @@
 <div align="center">
   
 # OptiKube 
-
+![OptiKube Horizontal Logo](optikube_logo_horizontal_final.jpg)
 <p> Logo to go here or replace "optikube" above </p>
 
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)

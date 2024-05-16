@@ -1,10 +1,8 @@
-<img width="1187" alt="Screenshot 2024-04-26 at 7 12 59 PM" src="https://github.com/oslabs-beta/OptiKube-FE/assets/78817053/cdc2c4bf-8f7c-44fb-b21d-94e2a68700ce">
-<div align="center">
-  
-# OptiKube 
-![OptiKube Horizontal Logo](optikube_logo_horizontal_final.jpg)
-<p> Logo to go here or replace "optikube" above </p>
+# Hey there 👋 and welcome to OptiKube!
+ ![OptiKube Horizontal Logo](optikube_logo_horizontal_final.jpg)
+OptiKube is open source application for Kubernetes users to optimize and manage their cluster resources and costs effectively. Continue reading and find out more about what OptiKube can do for you. To learn more about the process and work that went into building Optikube look [here](https://medium.com/@andymatt1225/optikube-your-kubernetes-clusters-new-best-friend-e115ea68679a).
 
+## Tech Stack
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-326ce5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=Helm&labelColor=0F1689)
@@ -22,14 +20,9 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 
-Read about the process and work that went into building Optikube [here](https://medium.com/@andymatt1225/optikube-your-kubernetes-clusters-new-best-friend-e115ea68679a).
-
 ---
 
 </div>
-
-
-
 
 ## Status
 Optikube is currently in production stage but is set to launch soon!
